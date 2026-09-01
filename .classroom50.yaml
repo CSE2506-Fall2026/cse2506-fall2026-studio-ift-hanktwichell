@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "cse2506-fall2026"
+assignment: "studio-ift"
+owner:
+  username: "hanktwichell"
+  id: 78049692
+  accepted_at: "2026-09-01T19:17:49Z"
+source:
+  owner: "ckelleher-wustl"
+  owner_id: 75854859
+  repo: "f22_IF_template"
+  branch: "master"
