@@ -1,0 +1,31 @@
+{
+  "name": "information-foraging",
+  "version": "1.0.0",
+  "description": "Information Foraging project for CSE 256 in the form of WUSTL's Nursery School website.",
+  "main": "./scripts/js/app.js",
+  "url": "put your repository's home page url here",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sandbox": "node ./deploy/sandbox.js",
+    "pretty": "prettier --write \"./**/*.{ts,html}\"",
+    "build": "node ./deploy/build.js",
+    "watch": "node ./deploy/watch.js",
+    "serve": "browser-sync start --server --files \"files/css/*.css\" \"files/*.html\" \"scripts/js/*.js\"",
+    "dev": "concurrently --kill-others \"npm run watch\" \"npm run serve\""
+  },
+  "author": "Riley McCuen",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1693.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^10.0.5",
+    "esbuild": "^0.28.2",
+    "prettier": "^3.8.0",
+    "stringify": "^5.2.0",
+    "typescript": "^7.0.2",
+    "watchify": "^4.0.0"
+  }
+}
