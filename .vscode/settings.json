@@ -15,5 +15,8 @@
     "code-runner.executorMap": {
         "html": "\"$pythonPath\" -m http.server 8080 --directory \"$workspaceRoot\"",
         "python": "\"$pythonPath\" -u \"$fullFileName\""
-    }
+    },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
+    ]
 }

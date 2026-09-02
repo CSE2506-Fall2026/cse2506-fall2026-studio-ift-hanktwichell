@@ -148,3 +148,15 @@ header a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#main-menu-container.sticky {
+    position: fixed;
+    top: 43px; /* was originally 0, but no offset obscures navbar due to yellow header */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#main-menu-container.sticky+.sticky-offset {
+    padding-top: 50px;
+}
